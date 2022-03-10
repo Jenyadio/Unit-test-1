@@ -1,0 +1,36 @@
+{
+  "name": "unit-test-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jenyadio/Unit-test-1.git"
+  },
+  "author": "jenyadio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jenyadio/Unit-test-1/issues"
+  },
+  "homepage": "https://github.com/Jenyadio/Unit-test-1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
